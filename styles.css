@@ -324,25 +324,25 @@ button #L5{
     background-size:contain; /* you change this to "contain" if you don't want the images to be cropped */
 }
 
-.img_1-a{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/1-a.jpg');}
-.img_1-b{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/1-b.jpg');}
-.img_1-c{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/1-c.jpg');}
-.img_1-d{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/1-d.jpg');}
+.img_1-a{background-image:url('game3/1-a.jpg');}
+.img_1-b{background-image:url('game3/1-b.jpg');}
+.img_1-c{background-image:url('game3/1-c.jpg');}
+.img_1-d{background-image:url('game3/1-d.jpg');}
 
-.img_2-a{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/2-a.jpg');}
-.img_2-b{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/2-b.jpg');}
-.img_2-c{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/2-c.jpg');}
-.img_2-d{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/2-d.jpg');}
+.img_2-a{background-image:url('game3/2-a.jpg');}
+.img_2-b{background-image:url('game3/2-b.jpg');}
+.img_2-c{background-image:url('game3/2-c.jpg');}
+.img_2-d{background-image:url('game3/2-d.jpg');}
 
-.img_3-a{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/3-a.jpg');}
-.img_3-b{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/3-b.jpg');}
-.img_3-c{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/3-c.jpg');}
-.img_3-d{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/3-d.jpg');}
+.img_3-a{background-image:url('game3/3-a.jpg');}
+.img_3-b{background-image:url('game3/3-b.jpg');}
+.img_3-c{background-image:url('game3/3-c.jpg');}
+.img_3-d{background-image:url('game3/3-d.jpg');}
 
-.img_4-a{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/4-a.jpg');}
-.img_4-b{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/4-b.jpg');}
-.img_4-c{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/4-c.jpg');}
-.img_4-d{background-image:url('file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/game%203/4-d.jpg');}
+.img_4-a{background-image:url('game3/4-a.jpg');}
+.img_4-b{background-image:url('game3/4-b.jpg');}
+.img_4-c{background-image:url('game3/4-c.jpg');}
+.img_4-d{background-image:url('game3/4-d.jpg');}
 
 
 .md-modal {
