@@ -349,7 +349,14 @@ button #L5{
 .img_4-a{background-image:url('game3/4-a.jpg');}
 .img_4-b{background-image:url('game3/4-b.jpg');}
 .img_4-c{background-image:url('game3/4-c.jpg');}
-.img_4-d{background-image:url('game3/4-d.jpg');}
+.img_4-d{
+  background-image:url('game3/4-d.jpg');
+  background-size: 165px;
+  padding: 0;
+  width: 130px;
+  height: 128px;
+  border: 0px;
+}
 
 
 .md-modal {
@@ -395,7 +402,7 @@ button #L5{
 
 footer{
     z-index: 99998;
-    background-color: #f5f2e9;
+    background-color: #FFFDF7;
     height: 70px;
     width: 100%;
     position: fixed;
