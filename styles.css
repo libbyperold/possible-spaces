@@ -324,6 +324,8 @@ button #L5{
     background-size:contain; /* you change this to "contain" if you don't want the images to be cropped */
 }
 
+
+
 .img_1-a{background-image:url('game3/1-a.jpg');}
 .img_1-b{background-image:url('game3/1-b.jpg');}
 .img_1-c{background-image:url('game3/1-c.jpg');}
@@ -335,7 +337,15 @@ button #L5{
 .img_2-d{background-image:url('game3/2-d.jpg');}
 
 .img_3-a{background-image:url('game3/3-a.jpg');}
-.img_3-b{background-image:url('game3/3-b.jpg');}
+.img_3-b{
+  background-image:url('game3/3-b.jpg');
+  background-size: 165px;
+  padding: 0;
+  width: 140px;
+  height: 135px;
+  border: 0px;
+  left: 6%;
+}
 .img_3-c{background-image:url('game3/3-c.jpg');}
 .img_3-d{background-image:url('game3/3-d.jpg');}
 
@@ -372,7 +382,7 @@ button #L5{
   left: 0;
   z-index: 1000;
   opacity: 0;
-  background: rgba(143,27,15,0.8);
+  background-color: rgba(143,27,15,0.8);
   transition: all 0.3s;
 }
 
@@ -381,6 +391,9 @@ button #L5{
   visibility: visible;
 }
 
+.md-trigger{
+  background-color: transparent;
+}
 
 
 footer{
