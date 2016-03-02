@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>Game 1</title>
+    <link rel="stylesheet" type="text/css" href="modal/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="modal/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="modal/js/modernizr.custom.js"></script>
+</head>
+<body>
+    <div id="modal-g1">
+        <div class="modalcontent-g1">
+           <h2>Game 1: City Cards</h2>
+           <p>Lorem ipsum dolor sit amet, at cum timeam splendide. His assum dolorem elaboraret ea. Sea munere mentitum et, nam quod ullum assentior ea. In mundi ignota graeco quo, ad putant option inciderint pro. Elitr doctus referrentur ne pri. Dictas aliquando forensibus ex usu.</p>
+           <button id="button-close-g1">I'm Ready!</button>
+       </div>
+   </div>
+   <div class="bg"></div>
+
+   <div class="md-modal md-effect-8">
+    <div class="md-content">
+        <h3>Diomira</h3>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit accumsan ante, in dapibus felis fringilla non. Sed accumsan ornare felis ut varius. Vestibulum quis aliquam urna.</p>
+            <ul>
+                <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+                <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+                <li><strong>Close:</strong> click on the button below to close the modal.</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+        </div>
+    </div>
+</div>
+
+<div class="md-overlay"></div><!-- the overlay element -->
+
+<div class="next">
+    <a href="game2.html"><img src="arrow487.png"></a>
+</div>
+
+<audio loop>
+    <source src="audio/city_traffic.mp3" type="audio/mpeg">
+    </audio>    
+
+<div>
+    <button class="md-trigger" data-modal="modal-8" id="L5"></button>
+    <button class="md-trigger" data-modal="modal-9" id="sq8"></button>
+</div>
+
+<footer>
+        <a href="google.com">about</a>
+        <a href="google.com">theory</a>
+    </footer>
+
+
+<script type="text/javascript">
+    window.onload = function () {
+        document.getElementById('button-close-g1').onclick = function () {
+            document.getElementById('modal-g1').style.display = "none"
+        };
+    };
+    </script>
+      <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+        <script src="modal/js/classie.js"></script>
+        <script src="modal/js/modalEffects.js"></script>
+
+        <!-- for the blur effect -->
+        <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+        <script>
+            // this is important for IEs
+            var polyfilter_scriptpath = '/js/';
+        </script>
+        <script src="modal/js/cssParser.js"></script>
+        <script src="modal/js/css-filters-polyfill.js"></script>
+
+</body>
+</html>
