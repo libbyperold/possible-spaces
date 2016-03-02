@@ -35,8 +35,10 @@
     }
 
     button{
-      background-color: white;
+      background-color: transparent;
       cursor: pointer;
+      border: none;
+
     }
 
 /*  MODAL WINDOW -- GAME 1 */
@@ -180,24 +182,6 @@
   margin: 10px 15%;
 }
 
-
-
-#L5{
-  z-index: 99997;
-  background-image: url(file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/L5.png);
-  background-size: cover;
-  width: 320px;
-  height: 320px; 
-  position: absolute;
-  left: 830px;
-  top: 580px;
-}
-
-button #L5{
-  width: 320px;
-  height: 320px;
-}
-
 .next{
     z-index: 101;
     background-color: #cc3628;
@@ -280,15 +264,29 @@ button #L5{
 
 .bg{
     display: block;
-    width: 1500px;
+    width: 10000px;
     height: 900px;
-    background-image: url(file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/chicago2.jpg);
+    background-image: url(chicago-bg.png);
     margin: 0;
     z-index: -100000;
+    background-repeat: repeat-x;
 }
 
-.md-modal .md-effect-8 {
-    display: block;
+#L5{
+  background-image: url(file:///Users/Libby%20P/Desktop/senior-year/thesis/website/thesis-site/L5.png);
+  background-size: cover;
+  width: 320px;
+  height: 320px; 
+  position: absolute;
+  left: 830px;
+  top: 580px;
+}
+
+button #L5{
+  border: 0px;
+  background: transparent;
+  width: 320px;
+  height: 320px;
 }
 
 /* GAME 2 */
