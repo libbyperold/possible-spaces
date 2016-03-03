@@ -222,6 +222,56 @@
   margin: 10px 15%;
 }
 
+
+/* MODAL CONTENT GAME 4 */
+
+  #button-close-g4{
+    margin: 10 auto;
+    background-color: rgba(204, 54, 40, .95);
+    border: 3px solid #f5f2e9; /* cream */
+    color: #f5f2e9;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'PT Mono', serif;
+    text-indent: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    }
+
+  #button-close-g4:hover{
+    background-color: #f5f2e9;
+    color: rgba(204, 54, 40, 1);
+  }  
+
+  #modal-g4 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    background: rgba(204, 54, 40, 0.95);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.modalcontent-g4 {
+    color: #f5f2e9;
+    margin: 10px 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.modalcontent-g4 p{
+    color: #f5f2e9;
+  margin: 10px 15%;
+}
+
+
 .next{
     z-index: 101;
     background-color: #cc3628;
@@ -304,7 +354,7 @@
 
 .bg{
     display: block;
-    width: 10000px;
+    width: 20000px;
     height: 900px;
     background-image: url(chicago-bg.png);
     margin: 0;
@@ -317,7 +367,7 @@
   background-size: cover;
   width: 320px;
   height: 320px; 
-  position: absolute;
+  position: relative;
   left: 830px;
   top: 580px;
 }
@@ -458,6 +508,79 @@ button #L5{
 
 .md-trigger{
   background-color: transparent;
+}
+
+
+/* GAME 4 */
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% .5%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  GRID OF TWELVE  */
+.span_12_of_12 {
+  width: 100%;
+}
+
+.span_11_of_12 {
+    width: 91.62%;
+}
+.span_10_of_12 {
+    width: 83.25%;
+}
+
+.span_9_of_12 {
+    width: 74.87%;
+}
+
+.span_8_of_12 {
+    width: 66.5%;
+}
+
+.span_7_of_12 {
+    width: 58.12%;
+}
+
+.span_6_of_12 {
+    width: 49.75%;
+}
+
+.span_5_of_12 {
+    width: 41.37%;
+}
+
+.span_4_of_12 {
+    width: 33%;
+}
+
+.span_3_of_12 {
+    width: 24.62%;
+}
+
+.span_2_of_12 {
+    width: 16.25%;
+}
+
+.span_1_of_12 {
+    width: 7.875%;
 }
 
 
