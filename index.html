@@ -1,16 +1,98 @@
-<html>
-<head>
-	<title>index2</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-	<h1>Welcome</h1>
-	<p>Lorem ipsum dolor sit amet, sollicitudin pellentesque. Interdum velit consectetuer justo viverra vitae, arcu sagittis condimentum eleifend, hendrerit maecenas habitasse nulla id orci, lacinia egestas cupiditate elementum, odio phasellus quisque duis ac pharetra. Adipiscing in vivamus pretium proin metus, nisl magnis cum sociis orci sed, magna dui elit pulvinar sodales ac blandit, vel magnis donec suscipit</p>
-	<a class="link-button" href="game1.html">Start</a>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Possible Spaces</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="stylesheet" type="text/css" href="OnScroll/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="OnScroll/css/component.css" />
+		<script src="OnScroll/js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="cbp-so-scroller" class="cbp-so-scroller">
+				<section class="cbp-so-section">
+					<article>
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, sollicitudin pellentesque. Interdum velit consectetuer justo viverra vitae, arcu sagittis condimentum eleifend, hendrerit maecenas habitasse nulla id orci, lacinia egestas cupiditate elementum, odio phasellus quisque duis ac pharetra. Adipiscing in vivamus pretium proin metus, nisl magnis cum sociis orci sed, magna dui elit pulvinar sodales ac blandit, vel magnis donec suscipit</p>
+					</article>
+					<a href="game1.html">
+							<button>Start</button>
+					</a>
+					<a href="#sect-2">
+						<button>Learn More</button>
+					</a>
+				</section>
+				<section class="cbp-so-section" id="sect-2">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="OnScroll/images/2.png" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Why Games?</h2>
+						<p>Lollipop powder danish sugar plum caramels liquorice sweet cookie. Gummi bears caramels gummi bears candy canes cheesecake sweet roll icing dragée. Gummies jelly-o tart. Cheesecake unerdwear.com candy canes apple pie halvah chocolate tiramisu.</p>
+					</article>
+				</section>
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Marzipan gingerbread</h2>
+						<p>Soufflé bonbon jelly cotton candy liquorice dessert jelly bear claw candy canes. Pudding halvah bonbon marzipan powder. Marzipan gingerbread sweet jelly.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/3.png" alt="img01">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="images/4.png" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Carrot cake</h2>
+						<p>Sesame snaps sweet wafer danish. Chupa chups carrot cake icing donut halvah bonbon. Chocolate cake candy marshmallow pudding dessert marzipan jujubes sugar plum.</p>
+					</article>
+				</section>
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Pudding lollipop</h2>
+						<p>Chupa chups pudding lollipop gummi bears gummies cupcake pie. Cookie cotton candy caramels. Oat cake dessert applicake. Sweet roll tiramisu sweet roll sweet roll.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/5.png" alt="img01">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="images/6.png" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Soufflé bonbon</h2>
+						<p>Cake cotton candy lollipop. Cake croissant cheesecake candy sugar plum icing apple pie wafer. Pie sugar plum tiramisu tiramisu pie fruitcake candy icing. Candy icing gummies gummies cheesecake brownie lemon drops chocolate gingerbread.</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		<script type="text/javascript">
+		$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
 
-<footer>
-        <a href="google.com">about</a>
-        <a href="google.com">theory</a>
-    </footer>
-</body>
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	    });
+	});
+});</script>
+		<script src="OnScroll/js/classie.js"></script>
+		<script src="OnScroll/js/cbpScroller.js"></script>
+		<script>
+			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+		</script>
+	</body>
 </html>
