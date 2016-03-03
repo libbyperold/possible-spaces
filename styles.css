@@ -13,9 +13,9 @@
       font-family: 'Oswald', sans-serif;
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 48px;
+      font-size: 65px;
       text-align: center;
-      margin-top: 15%;
+      margin: 5% auto;
       color: #cc3628;
     }
 
@@ -27,17 +27,42 @@
       text-align: center;
       margin-top: 15%;
       letter-spacing: 2px;
+      color: #cc3628;
     }
 
     p{
       font-family: 'PT Mono', serif;
       font-size: 14px;
+      color: black;
+      padding: 5%;
+      padding-top: 0px;
     }
 
     button{
-      background-color: transparent;
-      cursor: pointer;
-      border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin: 10px auto;
+    background-color: rgba(204, 54, 40, .95);
+    border: 3px solid #f5f2e9; /* cream */
+    color: #f5f2e9;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'PT Mono', serif;
+    text-indent: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    }
+
+  button:hover{
+    background-color: #f5f2e9;
+    color: rgba(204, 54, 40, 1);
+  }  
 
     }
 
@@ -85,6 +110,7 @@
 }
 
 .modalcontent-g1 p{
+  color: #f5f2e9;
   margin: 10px 15%;
 }
 
