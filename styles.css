@@ -23,12 +23,24 @@
       font-family: 'Oswald', sans-serif;
       text-transform: uppercase;
       font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      margin-top: 15%;
+      letter-spacing: 2px;
+      color: #f5f2e9;
+    }
+
+    h3{
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
       font-size: 36px;
       text-align: center;
       margin-top: 15%;
       letter-spacing: 2px;
       color: #cc3628;
     }
+
 
     p{
       font-family: 'PT Mono', serif;
