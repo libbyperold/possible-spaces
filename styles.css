@@ -87,7 +87,15 @@
     color: rgba(204, 54, 40, 1);
   }  
 
-    }
+  a button{
+    margin: 0 10px;
+    border: none;
+  }
+
+  a button:hover{
+    background-color: transparent;
+    border: 3px solid #cc3628;
+  }
 
 /*  MODAL WINDOW -- GAME 1 */
 
@@ -359,6 +367,15 @@
   top: 40%;
   left: 35%;
 }
+
+
+/* HOMEPAGE */
+
+#home-buttons{
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 
 /* GAME 1 */
