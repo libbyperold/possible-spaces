@@ -41,6 +41,17 @@
       color: #cc3628;
     }
 
+    h4{
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 15%;
+      color: #f5f2e9;
+      margin: 0;
+    }
+
 
     p{
       font-family: 'PT Mono', serif;
@@ -379,6 +390,18 @@ button #L5{
   height: 320px;
 }
 
+button .md-trigger{
+  background-color: transparent;
+  border: none;
+}
+
+
+button .md-trigger:hover{
+  background-color: transparent;
+  border: none;
+
+}
+
 /* GAME 2 */
 
 .drag{
@@ -469,7 +492,6 @@ button #L5{
   margin: 1px;
 }
 
-
 .md-modal {
   position: fixed;
   top: 50%;
@@ -482,6 +504,27 @@ button #L5{
   visibility: hidden;
   backface-visibility: hidden;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.md-content{
+  background-color: #cc3628;
+}
+
+.md-content p{
+  font-family: 'PT Mono', serif;
+  color: #f5f2e9;
+  padding: 0 5% 5%;
+}
+
+.md-content button{
+  display: block;
+  margin: 10 auto;
+  background-color: transparent;
+}
+
+.md-content button:hover{
+  background-color: #f5f2e9;
+  color: #cc3628;
 }
 
 .md-show {
@@ -508,6 +551,7 @@ button #L5{
 
 .md-trigger{
   background-color: transparent;
+  border: none;
 }
 
 
@@ -582,6 +626,9 @@ button #L5{
 .span_1_of_12 {
     width: 7.875%;
 }
+
+
+
 
 
 footer{
