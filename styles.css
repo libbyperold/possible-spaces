@@ -402,6 +402,36 @@
   top: 580px;
 }
 
+#sq2{
+  background-image: url(game1/l5.png);
+  background-size: cover;
+  width: 320px;
+  height: 320px; 
+  position: relative;
+  left: 1030px;
+  top: 280px;
+}
+
+#sq3{
+  background-image: url(game1/l5.png);
+  background-size: cover;
+  width: 320px;
+  height: 320px; 
+  position: relative;
+  left: 1250px;
+  top: 480px;
+}
+
+#sq4{
+  background-image: url(game1/l5.png);
+  background-size: cover;
+  width: 320px;
+  height: 320px; 
+  position: relative;
+  left: 1700px;
+  top: 620px;
+}
+
 button #L5{
   border: 0px;
   background: transparent;
