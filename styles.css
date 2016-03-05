@@ -609,7 +609,8 @@ button .md-trigger:hover{
   z-index: 0; 
   transition: all 0.5s ease-out;
   backface-visibility: hidden; 
-  transform-y: ;
+  position: relative;
+  top: 2px; 
 }
 
 

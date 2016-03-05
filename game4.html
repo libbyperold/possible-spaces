@@ -174,7 +174,7 @@
         <div class="front"></div>
     </div>
 
-
+    <button id="trigger-btn" style="position: fixed; top: 0;">toggle!</button>
 </div>
 
 
@@ -198,9 +198,9 @@
     <script type="text/javascript">
     $(document).ready(function(){
         $('.chosen-card').flip({
-            trigger: 'hover',
-            speed: '700'
+            trigger: 'manual'
         });
+        $('#trigger-btn').flip('toggle');
 });
     </script>
 
