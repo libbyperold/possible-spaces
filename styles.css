@@ -615,6 +615,11 @@ button .md-trigger:hover{
 
 /* GAME 4 */
 
+#grid-container{
+  margin: 0 auto;
+  position: relative;
+  left: 2%;
+}
 
 .card-grid{
   width: 120px;
