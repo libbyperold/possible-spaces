@@ -98,6 +98,10 @@
     padding: 12px 25.6px;
   }
 
+  a{
+    text-decoration: underline;
+  }
+
 /*  MODAL WINDOW -- GAME 1 */
 
   #button-close-g1{
