@@ -98,9 +98,10 @@
     padding: 12px 25.6px;
   }
 
-  a{
-    text-decoration: underline;
-  }
+ .inline-link a{
+  color: black;
+  text-decoration: underline;
+ }
 
 /*  MODAL WINDOW -- GAME 1 */
 
