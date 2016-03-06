@@ -17,6 +17,7 @@
       text-align: center;
       margin: 5% auto;
       color: #cc3628;
+      word-spacing: 15px;
     }
 
     h2{
@@ -387,10 +388,16 @@
 }
 
 #epigraph{
-  margin: 0 15%;
+  margin: 0 22%;
   font-size: 12px;
   text-align: center;
   font-style: italic;
+  padding: 0;
+}
+
+.intro-p{
+  padding: 10px;
+  margin: 10px 15% 30px;
 }
 
 
