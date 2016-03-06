@@ -615,6 +615,10 @@ button .md-trigger:hover{
 
 /* GAME 4 */
 
+#grid-container::-webkit-scrollbar { 
+    display: none; 
+}
+
 #grid-container{
   margin: 0 auto;
   position: relative;
