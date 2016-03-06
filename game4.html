@@ -40,7 +40,7 @@
     </div>
     <div class="card-grid chosen-card">
         <div class="front"><img src="game4/5.png"></div>
-        <div class="back">amazing stuff back here!</div>
+        <div class="back"><span>amazing stuff back here!</span></div>
     </div>
     <div class="card-grid">
         <div class="front"><img src="game4/6.png"></div>
@@ -53,13 +53,14 @@
     </div>
     <div class="card-grid chosen-card">
         <div class="front"><img src="game4/9.png"></div>
-        <div class="back">amazing stuff back here!</div>
+        <div class="back"><span>amazing stuff back here!</span></div>
     </div>
     <div class="card-grid">
         <div class="front"><img src="game4/10.png"></div>
     </div>
     <div class="card-grid chosen-card">
         <div class="front"><img src="game4/11.png"></div>
+        <div class="back"><span>amazing stuff back here!</span></div>
     </div>
     <div class="card-grid">
         <div class="front"><img src="game4/12.png"></div>
@@ -78,7 +79,7 @@
     </div>
     <div class="card-grid chosen-card">
         <div class="front"><img src="game4/2.png"></div>
-        <div class="back"></div>
+        <div class="back"><span>amazing stuff back here!</span></div>
     </div>
     <div class="card-grid">
         <div class="front"><img src="game4/3.png"></div>
@@ -291,6 +292,8 @@
     <div class="card-grid">
         <div class="front"><img src="game4/11.png"></div>
     </div>
+
+    <button id="toggle-btn" style="position: fixed; top: 0;">toggle!</button>
    
 </div>
 </div>
@@ -316,7 +319,10 @@
     <script type="text/javascript">
     $(document).ready(function(){
         $('.chosen-card').flip({
-            trigger: 'hover'
+            trigger: 'manual'
+        });
+        $("#toggle-btn").click(function(){
+          $(".chosen-card").flip('toggle');
         });
         
 });

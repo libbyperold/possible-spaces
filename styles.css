@@ -660,7 +660,14 @@ button .md-trigger:hover{
   transition: all 0.5s ease-out;
   backface-visibility: hidden; 
   position: relative;
-  top: 2px; 
+  top: 15px; 
+}
+
+.card-grid .back span{
+  display: block;
+  font-family: 'PT Mono', serif;
+  padding: 15px;
+  font-size: 13px;
 }
 
 
