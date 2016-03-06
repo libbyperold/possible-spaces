@@ -387,7 +387,10 @@
 }
 
 #epigraph{
-  
+  margin: 0 15%;
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
 }
 
 
