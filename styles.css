@@ -58,8 +58,7 @@
       font-family: 'PT Mono', serif;
       font-size: 14px;
       color: black;
-      padding: 5%;
-      padding-top: 0px;
+      padding: 0 5%;
     }
 
     button{
@@ -400,7 +399,14 @@
   margin: 10px 15% 30px;
 }
 
-
+/* ALL GAMES */
+.objective{
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0;
+  letter-spacing: 1px;
+}
 
 /* GAME 1 */
 
