@@ -15,7 +15,7 @@
       font-weight: 700;
       font-size: 55px;
       text-align: center;
-      margin: 5% auto;
+      margin: 3% auto 2%;
       color: #cc3628;
       word-spacing: 15px;
     }
@@ -101,9 +101,29 @@
   }
 
  .inline-link{
+  position: relative;
   color: black;
-  text-decoration: underline;
-  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 3px solid #f7d894;
+  z-index: 2;
+ }
+
+ .inline-link::after{
+  background-color: #f7d894;
+  bottom: 0;
+  content: '';
+  height: 5px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transition: height 0.4s;
+  z-index: -1;
+ }
+
+ a.inline-link:hover::after { height: 100%; }
+
+ article p{
+  line-height: 20px;
  }
 
 /*  MODAL WINDOW -- GAME 1 */
@@ -396,6 +416,7 @@
   text-align: center;
   font-style: italic;
   padding: 0;
+  line-height: initial;
 }
 
 .intro-p{
@@ -666,6 +687,60 @@ button .md-trigger:hover{
   border: none;
 }
 
+#grid-container-g3{
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.row{
+  width: 100%;
+  margin-top: 1%;
+}
+
+.city-grid{
+  width: 130px;
+  height: 130px;
+  margin: 3px;
+  display: inline-block;
+  vertical-align: top;
+  background-size: contain;
+}
+
+#cg-1a{background-image: url('game3/1-a.jpg');}
+#cg-1b{background-image: url('game3/1-b.jpg');}
+#cg-1c{background-image: url('game3/1-c.jpg');}
+#cg-1d{background-image: url('game3/1-d.jpg');}
+
+#cg-2a{background-image: url('game3/2-a.jpg');}
+#cg-2b{background-image: url('game3/2-b.jpg');}
+#cg-2c{background-image: url('game3/2-c.jpg');}
+#cg-2d{background-image: url('game3/2-d.jpg');}
+
+#cg-3a{background-image: url('game3/3-a.jpg');}
+#cg-3b{
+  background-image: url('game3/3-b.jpg');
+  background-size: contain;
+  padding: 0;
+  width: 130px;
+  height: 130px;
+  border-radius: 0px;
+  margin: initial;
+}
+#cg-3c{background-image: url('game3/3-c.jpg');}
+#cg-3d{background-image: url('game3/3-d.jpg');}
+
+#cg-4a{background-image: url('game3/4-a.jpg');}
+#cg-4b{background-image: url('game3/4-b.jpg');}
+#cg-4c{background-image: url('game3/4-c.jpg');}
+#cg-4d{background-image: url('game3/4-d.jpg');}
+
+@media screen and (max-width: 954px){
+ .city-grid{
+  width: 80px;
+  height: 80px;
+ }
+
+}
 
 /* GAME 4 */
 
@@ -732,6 +807,7 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0px;
+    text-align: center;
 }
 
 footer a{
@@ -740,7 +816,25 @@ footer a{
   text-decoration: underline;
   margin: 3% 1%;
   position: relative;
-  top: 20%;
-  left: 30%;
+  top: 30%;
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid #f7d894;
+  z-index: 2;
 }
+
+ footer a::after{
+  background-color: #f7d894;
+  bottom: 0;
+  content: '';
+  height: 5px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transition: height 0.4s;
+  z-index: -1;
+ }
+
+ footer a:hover::after { height: 100%; }
+
 
