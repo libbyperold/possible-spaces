@@ -426,9 +426,16 @@
   margin: 10px 15% 30px;
 }
 
+.contd{
+    text-decoration: none;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
 
-.cbp-so-section{
-  margin-bottom: 10em;
+.contd a{
+  text-align: center;
 }
 
 /* ALL GAMES */
