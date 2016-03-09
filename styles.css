@@ -497,14 +497,14 @@
     display: block;
     width: 20000px;
     height: 900px;
-    background-image: url(chicago-bg.png);
+    background-image: url('chicago-bg.png');
     margin: 0;
     z-index: -100000;
     background-repeat: repeat-x;
 }
 
 #L5{
-  background-image: url(game1/L5.png);
+  background-image: url('game1/L5.png');
   background-size: cover;
   width: 320px;
   height: 320px; 
@@ -518,7 +518,7 @@ button .md-trigger:hover{
 }
 
 #sq2{
-  background-image: url(game1/l5.png);
+  background-image: url('game1/L5.png');
   background-size: cover;
   width: 320px;
   height: 320px; 
@@ -528,7 +528,7 @@ button .md-trigger:hover{
 }
 
 #sq3{
-  background-image: url(game1/l5.png);
+  background-image: url('game1/L5.png');
   background-size: cover;
   width: 320px;
   height: 320px; 
@@ -538,7 +538,7 @@ button .md-trigger:hover{
 }
 
 #sq4{
-  background-image: url(game1/l5.png);
+  background-image: url('game1/L5.png');
   background-size: cover;
   width: 320px;
   height: 320px; 
