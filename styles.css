@@ -544,6 +544,9 @@
   top: 500px;
   border: 0px;
   border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
 }
 
 #sq4{
@@ -556,6 +559,9 @@
   top: 184px;
   border: 0px;
   border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
 }
 
 
@@ -699,7 +705,16 @@
 #cg-3c{background-image: url('game3/3-c.jpg');}
 #cg-3d{background-image: url('game3/3-d.jpg');}
 
-#cg-4a{background-image: url('game3/4-a.jpg');}
+#cg-4a{
+  background-image: url('game3/4-a.jpg');
+  background-size: contain;
+  padding: 0;
+  width: 130px;
+  height: 130px;
+  border: 0px;
+  border-radius: 0px;
+  margin: initial;
+}
 #cg-4b{background-image: url('game3/4-b.jpg');}
 #cg-4c{background-image: url('game3/4-c.jpg');}
 #cg-4d{background-image: url('game3/4-d.jpg');}

@@ -19,7 +19,9 @@
            <h2>Game 3: Grid City</h2>
            <p class="objective">Objective:</p>
            <p class="objective-p">Seek out the story underlying the squares of this grid</p>
-           <p>Unlike the megalopolis, urban planners loved the gridded city.Gridded cities even interested the historical Marco Polo, who likened gridded cities to a chessboard in The Book of Ser Marco Polo (375). Not surprisingly, Calvino depicts his own Kublai Khan and Marco Polo as chess players in Invisible Cities. Kublai hopes to win at chess and possess his cities, yet Polo focuses his attention on hidden narratives of the squares on the chessboard. This "overwhelm[s]" the Khan, who is amazed by Polo’s ability to unearth "the quantity of things that could be read in a little piece of smooth and empty wood" (132). While the Khan is occupied with "checkmate," Polo "was already talking about ebony forests, about rafts laden with logs that come down the rivers, of docks, of women at the windows" (132). If the gridded city is like a chessboard, can you find the stories embedded into its squares?</p>
+           <p>Unlike the megalopolis, urban planners loved the gridded city.Gridded cities even interested the historical Marco Polo, who likened gridded cities to a chessboard in <em>The Book of Ser Marco Polo</em> (375). Not surprisingly, Calvino depicts his own Kublai Khan and Marco Polo as chess players in Invisible Cities. Kublai hopes to win at chess and possess his cities, yet Polo focuses his attention on hidden narratives of the squares on the chessboard. This "overwhelm[s]" the Khan, who is amazed by Polo’s ability to unearth "the quantity of things that could be read in a little piece of smooth and empty wood" (132). While the Khan is occupied with "checkmate," Polo "was already talking about ebony forests, about rafts laden with logs that come down the rivers, of docks, of women at the windows" (132).</p> 
+
+           <p>If the gridded city is like a chessboard, can you find the stories embedded into its squares?</p>
            <button id="button-close-g3">Play game</button>
        </div>
    </div>
@@ -37,9 +39,7 @@
     </audio> 
 
     <!-- START GAME -->
-    <div id="chessboard">
-
-
+<div id="chessboard">
 <div id="grid-container-g3">
     <div class="row">
         <div class="city-grid" id="cg-1a"></div>
@@ -48,15 +48,14 @@
         <!-- STORY SQUARE -->
     <div class="md-modal md-effect-1" id="modal-1">
         <div class="md-content">
-            <h4>Modal Dialog</h4>
             <div>
-                 <p>This says one thing...</p>
+                 <p>"To each piece, in turn, they could give an appropriate meaning: a knight could stand for a real horseman, or for a procession of coaches, an army on the march, an equestrian monument: a queen could be a lady down from her balcony, a fountain, a church with a pointed dome, a quince tree."</p>
                 <button class="md-close">Close</button>
             </div>
         </div>
     </div>
     <!-- END STORY SQUARE -->
-        <div class="city-grid"><button class="md-trigger" id="cg-1d" data-modal="modal-1"></button></div>
+        <div class="city-grid"><button class="md-trigger hvr-rotate" id="cg-1d" data-modal="modal-1"></button></div>
     </div>
     <div class="row">
         <div class="city-grid" id="cg-2a"></div>
@@ -66,34 +65,38 @@
     </div>
     <div class="row">
         <div class="city-grid" id="cg-3a"></div>
-
-
     <!-- STORY SQUARE -->
     <div class="md-modal md-effect-1" id="modal-2">
         <div class="md-content">
-            <h4>Modal Dialog</h4>
             <div>
-                 <p>This says something else</p>
-                <button class="md-close">Close it up</button>
+                 <p>"The square on which your enlightened gaze is fixed was cut from the ring of a trunk that grew in a year of drought: you see how its fibers are arranged? Here a barely hinted knot can be made out: a bud tried to burgeon on a premature spring day, but the night's frost forced it to desist."</p>
+                <button class="md-close">Close</button>
             </div>
         </div>
     </div>
     <!-- END STORY SQUARE -->
-        <div class="city-grid"><button class="md-trigger" id="cg-3b" data-modal="modal-2"></button></div>
+        <div class="city-grid"><button class="md-trigger hvr-rotate-2" id="cg-3b" data-modal="modal-2"></button></div>
         <div class="city-grid" id="cg-3c"></div>
         <div class="city-grid" id="cg-3d"></div>
     </div>
     <div class="row">
-        <div class="city-grid" id="cg-4a"></div>
+        <!-- STORY SQUARE -->
+    <div class="md-modal md-effect-1" id="modal-3">
+        <div class="md-content">
+            <div>
+                 <p>"Here is a thicker pore; perhaps it was a larvum's nest; not a woodworm, because once born, it would have begun to dig, but a caterpillar that gnawed the leaves and was the cause of the tree's being chosen for chopping down...This edge was scored by the wood carver with his gouge so that it would adhere to the next square, more proturuding..."</p>
+                <button class="md-close">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- END STORY SQUARE -->
+        <div class="city-grid"><button class="md-trigger hvr-rotate" id="cg-4a" data-modal="modal-3"></div>
         <div class="city-grid" id="cg-4b"></div>
         <div class="city-grid" id="cg-4c"></div>
         <div class="city-grid" id="cg-4d"></div>
     </div>    
-
 </div>  
 
-
-    <div class="md-overlay"></div>
     <!-- END GAME -->
 
     <footer style="position: fixed; left: 0;">
