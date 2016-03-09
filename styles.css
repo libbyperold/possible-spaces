@@ -664,10 +664,6 @@ button .md-trigger:hover{
   visibility: visible;
 }
 
-.md-trigger{
-  background-color: transparent;
-  border: none;
-}
 
 #grid-container-g3{
   text-align: center;
