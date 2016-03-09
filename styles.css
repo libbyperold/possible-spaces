@@ -514,6 +514,8 @@
   border: 0px;
   border-radius: 0;
   margin: 0;
+  padding: 0;
+  vertical-align: initial;
 }
 
 
@@ -528,6 +530,8 @@
   border: 0px;
   border-radius: 0;
   margin: 0;
+  padding: 0;
+  vertical-align: initial;
 }
 
 #sq3{
