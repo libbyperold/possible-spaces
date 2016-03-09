@@ -503,7 +503,7 @@
     background-repeat: repeat-x;
 }
 
-#L5{
+#sq1{
   background-image: url('game1/L5.png');
   background-size: cover;
   width: 320px;
@@ -511,60 +511,52 @@
   position: relative;
   left: 830px;
   top: 580px;
+  border: 0px;
+  border-radius: 0;
 }
 
-button .md-trigger:hover{
-  background: inherit;
-}
 
 #sq2{
-  background-image: url('game1/L5.png');
+  background-image: url('game1/sq2.png');
   background-size: cover;
-  width: 320px;
-  height: 320px; 
+  width: 220px;
+  height: 220px; 
   position: relative;
-  left: 1030px;
+  left: 1170px;
   top: 280px;
+  border: 0px;
+  border-radius: 0;
 }
 
 #sq3{
-  background-image: url('game1/L5.png');
+  background-image: url('game1/sq3.png');
   background-size: cover;
-  width: 320px;
-  height: 320px; 
+  width: 310px;
+  height: 310px; 
   position: relative;
-  left: 1250px;
-  top: 480px;
+  left: 1370px;
+  top: 500px;
+  border: 0px;
+  border-radius: 0;
 }
 
 #sq4{
-  background-image: url('game1/L5.png');
+  background-image: url('game1/sq4.png');
   background-size: cover;
-  width: 320px;
-  height: 320px; 
+  width: 200px;
+  height: 200px; 
   position: relative;
-  left: 1700px;
-  top: 620px;
-}
-
-button #L5{
+  left: 1900px;
+  top: 184px;
   border: 0px;
-  background: transparent;
-  width: 320px;
-  height: 320px;
+  border-radius: 0;
 }
 
-button .md-trigger{
-  background-color: transparent;
-  border: none;
+button .hiddensq:hover{
+  background-color: green;
 }
 
 
-button .md-trigger:hover{
-  background-color: transparent;
-  border: none;
-
-}
 
 /* GAME 2 */
 
@@ -675,7 +667,15 @@ button .md-trigger:hover{
 #cg-1a{background-image: url('game3/1-a.jpg');}
 #cg-1b{background-image: url('game3/1-b.jpg');}
 #cg-1c{background-image: url('game3/1-c.jpg');}
-#cg-1d{background-image: url('game3/1-d.jpg');}
+#cg-1d{
+  background-image: url('game3/1-d.jpg');
+  background-size: contain;
+  padding: 0;
+  width: 130px;
+  height: 130px;
+  border-radius: 0px;
+  margin: initial;
+}
 
 #cg-2a{background-image: url('game3/2-a.jpg');}
 #cg-2b{background-image: url('game3/2-b.jpg');}
@@ -755,7 +755,7 @@ button .md-trigger:hover{
   transition: all 0.5s ease-out;
   backface-visibility: hidden; 
   position: relative;
-  top: 15px; 
+  top: 15px;
 }
 
 .card-grid .back span{
