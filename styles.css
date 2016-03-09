@@ -781,7 +781,11 @@
   display: block;
   font-family: 'PT Mono', serif;
   padding: 15px;
-  font-size: 13px;
+  font-size: 11px;
+  position: relative;
+  top:5%;
+  text-align: center;
+  overflow: scroll;
 }
 
 #toggle-btn{
