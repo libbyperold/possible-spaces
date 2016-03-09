@@ -513,6 +513,10 @@
   top: 580px;
 }
 
+button .md-trigger:hover{
+  background: inherit;
+}
+
 #sq2{
   background-image: url(game1/l5.png);
   background-size: cover;
