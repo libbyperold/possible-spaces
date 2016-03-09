@@ -504,7 +504,7 @@
 }
 
 #L5{
-  background-image: url(game1/l5.png);
+  background-image: url(game1/L5.png);
   background-size: cover;
   width: 320px;
   height: 320px; 
@@ -574,18 +574,6 @@ button .md-trigger:hover{
   height: 150px;
 }
 
-
-/*.drag1{
-  background-color: transparent;
-  width: 100px;
-  height: 100px;
-  resize: both;
-  overflow: auto;
-  min-width: 80px;
-  min-height: 60px;
-  max-width: 160px;
-  max-height: 160px;
-}*/
 
 .drag img{
   width: 150px;
