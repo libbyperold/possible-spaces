@@ -426,16 +426,29 @@
   margin: 10px 15% 30px;
 }
 
+.cont-div{
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 13em;
+}
+
 .contd{
     text-decoration: none;
     font-family: 'Oswald';
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black;
+    letter-spacing: 1px;
+    color: #cc3628;
+    font-weight: 600;
+    font-size: 18px;
+
 }
 
-.contd a{
-  text-align: center;
+.contd img{
+  width: 25px;
+  margin: 0 10px;
+  position: relative;
+  top: 3px;
 }
 
 /* ALL GAMES */
