@@ -451,6 +451,13 @@
   top: 3px;
 }
 
+ul{
+  color: black;
+  list-style-position: inside;
+  font-family: 'PT Mono', serif;
+  line-height: 38px;
+}
+
 /* ALL GAMES */
 .modalcontent-g1 .objective{
   font-weight: 600;
