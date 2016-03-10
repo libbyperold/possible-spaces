@@ -15,7 +15,7 @@
       font-weight: 700;
       font-size: 55px;
       text-align: center;
-      margin: 3% auto 2%;
+      margin: 2% auto;
       color: #cc3628;
       word-spacing: 15px;
       letter-spacing: 1px;
@@ -423,7 +423,7 @@
 
 .intro-p{
   padding: 10px;
-  margin: 10px 15% 30px;
+  margin: 10px 15% 10px;
 }
 
 .cont-div{
