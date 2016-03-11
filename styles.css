@@ -572,6 +572,21 @@ ul{
   vertical-align: initial;
 }
 
+#sq5{
+  background-image: url('game1/sq5.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px; 
+  position: relative;
+  left: 2460px;
+  top: 480px;
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
+}
+
 
 /* GAME 2 */
 
