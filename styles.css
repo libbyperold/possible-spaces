@@ -729,6 +729,10 @@ ul{
   border-radius: 0px;
   margin: initial;
 }
+#cg-3b::after{
+ border: 1px solid black;
+}
+
 #cg-3c{background-image: url('game3/3-c.jpg');}
 #cg-3d{background-image: url('game3/3-d.jpg');}
 
@@ -742,6 +746,10 @@ ul{
   border-radius: 0px;
   margin: initial;
 }
+#cg-4a::after{
+ border: 1px solid black;
+}
+
 #cg-4b{background-image: url('game3/4-b.jpg');}
 #cg-4c{background-image: url('game3/4-c.jpg');}
 #cg-4d{background-image: url('game3/4-d.jpg');}
@@ -760,7 +768,7 @@ ul{
 
 #cg-1d-modal{
   width: 500px;
-  height: 300px;
+  height: 220px;
   position:absolute;
   top:0;
   left:0;
@@ -782,7 +790,7 @@ ul{
 
 #cg-3b-modal{
   width: 500px;
-  height: 300px;
+  height: 250px;
   position:absolute;
   top:0;
   left:0;
@@ -802,7 +810,7 @@ ul{
 
 #cg-4a-modal{
   width: 500px;
-  height: 300px;
+  height: 250px;
   position:absolute;
   top:0;
   left:0;
