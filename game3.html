@@ -119,36 +119,27 @@
     </script>
     <script type="text/javascript">
      document.getElementById('cg-1d').onclick = function () {
-            document.getElementById('cg-1d-modal').style.display = "initial"
+            document.getElementById('cg-1d-modal').style.display = "initial",
+            document.getElementById('cg-1d').style.border = "3px solid #cc3628"
         };
         document.getElementById('move-on-1').onclick = function (){
             document.getElementById('cg-1d-modal').style.display = "none",
-            document.getElementById('cg-3b-modal').style.display = "initial"
+            document.getElementById('cg-1d').style.border = "none",
+            document.getElementById('cg-3b-modal').style.display = "initial",
+            document.getElementById('cg-3b').style.border = "3px solid #cc3628"
         };
         document.getElementById('move-on-2').onclick = function (){
             document.getElementById('cg-3b-modal').style.display = "none",
-            document.getElementById('cg-4a-modal').style.display = "initial"
+            document.getElementById('cg-3b').style.border = "none",
+            document.getElementById('cg-4a-modal').style.display = "initial",
+            document.getElementById('cg-4a').style.border = "3px solid #cc3628"
         };
         document.getElementById('move-on-3').onclick = function (){
-            document.getElementById('cg-4a-modal').style.display = "none"
+            document.getElementById('cg-4a-modal').style.display = "none",
+            document.getElementById('cg-4a').style.border = "none"
         };
     </script>
-    <script type="text/javascript">
-     document.getElementById('cg-3b').onclick = function () {
-            document.getElementById('cg-3b-modal').style.display = "initial"
-        };
-        document.getElementById('move-on-2').onclick = function (){
-            document.getElementById('cg-3b-modal').style.display = "none",
-            document.getElementById('cg-1d-modal').style.display = "initial"
-        };
-        document.getElementById('move-on-1').onclick = function (){
-            document.getElementById('cg-1d-modal').style.display = "none",
-            document.getElementById('cg-4a-modal').style.display = "initial"
-        };
-        document.getElementById('move-on-3').onclick = function (){
-            document.getElementById('cg-4a-modal').style.display = "none"
-        };
-    </script>
+    
     <!-- classie.js by @desandro: https://github.com/desandro/classie -->
    <!-- <script src="modal1/js/classie.js"></script>
     <script src="modal1/js/modalEffects.js"></script> -->

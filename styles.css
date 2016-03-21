@@ -677,7 +677,6 @@ ul{
 
 #grid-container-g3{
   text-align: center;
-  overflow-y: hidden;
 }
 
 .row{
@@ -777,7 +776,6 @@ ul{
   background-color: #cc3628;
   z-index:9999;
   display: none;
-  margin: 
 }
 
 #cg-1d-modal p{
@@ -799,6 +797,8 @@ ul{
   background-color: #cc3628;
   z-index:9999;
   display: none;
+  margin-left: 400px;
+  margin-bottom: 300px;
 }
 
 #cg-3b-modal p{
