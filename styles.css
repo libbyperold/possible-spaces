@@ -587,6 +587,81 @@ ul{
   vertical-align: initial;
 }
 
+#sq6{
+  background-image: url('game1/L5.png');
+  background-size: cover;
+  width: 320px;
+  height: 320px; 
+  position: relative;
+  left: 4250px;
+  top: 580px;
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
+}
+
+
+#sq7{
+  background-image: url('game1/sq2.png');
+  background-size: cover;
+  width: 220px;
+  height: 220px; 
+  position: relative;
+  left: 4570px;
+  top: 280px;
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
+}
+
+#sq8{
+  background-image: url('game1/sq3.png');
+  background-size: cover;
+  width: 310px;
+  height: 310px; 
+  position: relative;
+  left: 4870px;
+  top: 550px;
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
+}
+
+#sq9{
+  background-image: url('game1/sq4.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px; 
+  position: relative;
+  left: 5300px;
+  top: 184px;
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
+}
+
+#sq10{
+  background-image: url('game1/sq5.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px; 
+  position: relative;
+  left: 5860px;
+  top: 480px;
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial;
+}
 
 /* GAME 2 */
 
